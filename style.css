@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+body {
+  font-family: font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+
+  font-family: 'Major Mono Display', monospace;
+}
+header{
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+ul{
+  display: flex;
+}
+.maxcontainer {
+  background-image: url(./Aloha.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+
+}
+
+.container {
+  height:80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.item {
+  flex: 0 1 auto;
+  width: 120px;
+  height: 120px;
+  background-color: green;
+  border: 1px solid darkgreen;
+  margin: 20px;
+  background-size: cover;
+}
+
+.pies1 {
+  background-image: url(./pies1.jpg);
+  background-position: 157px 1px;
+}
+.pies2 {
+  background-image: url(./pies2.jpg);
+  background-position: 200px 1px;
+}
+.pies3 {
+  background-image: url(./pies3.jpg);
+  background-position: 200px 1px;
+}
+.bird {
+  background-image: url(./bird.jpg);
+  background-position: 200px 1px;
+}
+
+@media (max-width: 400px) {
+  .maxcontainer
+  { background: red;
+  }
+  .item{
+    flex: 0 1 100%;
+  }
+}

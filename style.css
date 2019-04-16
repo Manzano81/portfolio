@@ -157,5 +157,11 @@ header {
 
 .fab{
   font-size: 2em;
-  color: red;
+  color: grey;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 30px;
 }
